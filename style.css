@@ -1,0 +1,24 @@
+details {
+  font: 40px "Open Sans", "Arial", sans-serif;
+  width: 620px;
+}
+
+details > summary {
+  font: 25px "Open Sans", "Arial", sans-serif;
+  padding: 2px 6px;
+  width: 15em;
+  background-color:rgba(51,112,121,0.8);
+  border: none;
+  list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details > p {
+  border-radius: 0 0 10px 10px;
+  background-color:rgba(51,112,121,0.6);
+  padding: 2px 6px;
+  margin: 0;
+}
